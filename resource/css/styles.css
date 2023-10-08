@@ -1,0 +1,202 @@
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    height: 70px;
+
+}
+
+a img {
+    width: 100px;
+    height: 60px:
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff
+}
+
+.imagen-1{
+    margin-left: 100px;
+}
+nav {
+    width: 100%;
+    display: inline;
+}
+
+.item {
+    margin-left: 200px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: baseline;
+}
+/*.container {
+    padding-top: 20px;
+    padding-bottom: 0;
+}*/
+
+.secciones-1 {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+    
+}
+.secciones-1 :hover {
+    color: gray;
+}
+
+#tickets {
+    color: green;
+    font-weight: bold;
+}
+
+#conferencia {
+    font-weight: bold;
+}
+ 
+/*nav ul li {
+    display: inline;
+    margin-right: 15px;
+}*/
+
+.conf {
+    font-size: 30px;
+    margin-left: 750px;
+    margin-bottom: 100px;
+}
+
+.texto-main {
+    margin-left:200px ;
+    position: relative;
+    bottom: 90px;
+    left: 120px;
+    color: white;
+}
+
+.orador {
+    position: relative;
+    left: 420px ;
+    bottom: 90px;
+}
+div h2 {
+    color: aliceblue;
+    display: inline;
+    font-size: 20px;
+}
+
+main {
+    flex: 2; /* Hace que el contenido principal ocupe todo el espacio disponible */
+    padding: 0; /* Espaciado interno del contenido principal */
+}
+
+
+.d-block{
+    filter: brightness(0.5); /* Reduce el brillo al 70% */
+}
+
+section span {
+    font-size: 35px;
+    display: block;
+    font-weight: bold;  
+}
+
+
+section {
+    display: block;
+}
+section h3 {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+#segundo {
+    background-color: #333;
+
+}
+
+h4 p  {
+    text-align: center;
+}
+
+.carousel-item {
+    font-size: 20px;
+}
+
+#Bs {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left:40px;
+}
+
+#texto2 {
+    margin-left: 40px;
+}
+
+#texto3 {
+    margin-left: 40px;
+}
+#texto {
+    text-align: left;
+    display: flex;
+}
+
+.titulo-gral {
+    text-align: center;
+}
+
+#boton {
+    background-color: greenyellow;
+    color: white;
+}
+
+#main-footer {
+     background-color: hsl(202, 46%, 21%);
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    height: 70px;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav {
+    font-size: 15x; 
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:768px)  {
+
+    nav {background-color: #5b656b;
+    
+    }
+    
+    nav li {
+        float: none;
+    }
+    nav ul {
+        text-align: center;
+    }
+    nav li a {
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; // achicamos la fuente en pantallas pequeñas 
+	} 
+}
